@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <body>
+            <title>form file</title>
+        </body>
+    </head>
+    <body>
+        <style>
+            h1{
+                background-color: blue;
+            }
+            form{
+                border: 5px solid black;
+            }
+        </style>
+        <div>
+            <h1><center>student form file</center></h1>
+        </div>
+        <form>
+            <label>name:</label>
+            <input type="text"
+            placeholder="enter your name">
+            <br>
+            <br>
+            <label>age:</label>
+            <input type="number"
+            placeholder="enter your age">
+            <br>
+            <br>
+            <label>date of birth:</label>
+            <input type="date">
+            <br>
+            <br>
+            <label>college name:</label>
+            <input type="text"
+            placeholder="enter your collge name">
+            <br>
+            <br>
+            <label>g-mail:</label>
+            <input type="text"
+            placeholder="enter your g-mail">
+            <br>
+            <br>
+            <label>password:</label>
+            <input type="password"
+            placeholder="enter your password">
+            <br>
+            <br>
+            <fieldset style="width: 10%;">
+                <legend>gender</legend>
+                <input type="radio"
+                id="male" name="gender" value="male" required/>
+                <label>male</label>
+                <input type="radio"
+                id="female" name="gender" value="female" required/>
+                <label>female</label>
+                <br>
+                <input type="radio"
+                id="others" name="gender" value="others" required/>
+                <label>others</label>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset style="width: 10%;">
+                <legend>skills</legend>
+                <input type="checkbox"
+                id="css" name="skills" value="css" required/>
+                <label>css</label>
+                <br>
+                <input type="checkbox"
+                id="java" name="skills" value="java" required/>
+                <label>java</label>
+                <br>
+                <input type="checkbox"
+                id="python" name="skills" value="python" required/>
+                <label>python</label>
+                <br>
+                <input type="checkbox"
+                id="js" name="skills" value="js" required/>
+                <label>js</label>
+                <br>
+            </fieldset>
+            <br>
+            <label>student role:</label>
+            <select id="role" name="role" required/>
+            <option value="student">student</option>
+            <option value="employee">employee</option>
+        </select>
+        </select>
+        <br>
+        <br>
+        <label>resume:</label>
+        <input type="file"
+        id="resume" name="resume" accept=".pdf,.doc,.docx" required/>
+        <br>
+        <br>
+        <input type="submit"
+        value="submit">
+        </form>
+    </body>
+</html>
