@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex file</title>
+    <style> 
+        .container{
+            border: 10px solid black;
+            display:flex;
+            background-color: cornflowerblue;
+            height: 600px;
+            width: auto;
+             justify-content: flex-end;
+                }
+        .box{
+            background-color: darkgreen;
+        }
+        span{
+            background-color: darkorange;
+        }
+        .box-one{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            margin: 8px;
+            text-align: center;
+            order: 4;
+        }
+        .box-two{
+            height: 70px;
+            width: 80px;
+            background-color: rgb(225, 255, 0);
+            margin: 8px;
+            text-align: center;
+            order: 3;
+        }
+        .box-three{
+            height: 80px;
+            width: 100px;
+            background-color: rgb(255, 0, 68);
+            margin: 8px;
+            text-align: center;
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-one">1</div>
+        <div class="box box-two">2</div>
+        <div class="box box-three">3</div>
+        <span>Hello span</span>
+    </div>
+</body>
+</html>
